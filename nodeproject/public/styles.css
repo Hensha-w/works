@@ -1,0 +1,96 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #35424a;
+            color: purple;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: purple;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #45a049;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        footer {
+            background-color: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .blogs-content {
+            background: #ffffff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .title {
+            color: #333333;
+        }
+        .snippet {
+            color: #666666;
+        }
+        .about content {
+            background: #ffffff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .about h2 {
+            color: #333333;
+        }
+        .about p {
+            color: #666666;
+        }
+        .create-blog content {
+            background: #ffffff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .create-blog form label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333333;
+        }
+        .create-blog form input[type="text"], .create-blog form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+        }
+        .create-blog form button {
+            background-color: #35424a;
+            color: #ffffff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .create-blog form button:hover {
+            background-color: #45a049;
+        }
+        .not-found content {
+            background: #ffffff;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .not-found h2 {
+            color: #333333;
+        }
+        .not-found p {
+            color: #666666;
+        }
