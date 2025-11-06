@@ -18,6 +18,10 @@
         nav a:hover {
             color: #45a049;
         }
+        nav ul li{
+            display: inline;
+            list-style: none;
+        }
         .container {
             width: 80%;
             margin: auto;
@@ -93,4 +97,17 @@
         }
         .not-found p {
             color: #666666;
+        }
+
+        .single {
+            text-decoration: none;
+        }
+
+        #dtd {
+            width: 60px;
+            height: 20px;
+            background-color: black;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            margin-left: 10px;
         }
